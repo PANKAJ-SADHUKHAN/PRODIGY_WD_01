@@ -1,0 +1,43 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("winter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #a90b9f00;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #631b1a;
+}
+nav ul li a.active {
+    color: yellow;
+}
